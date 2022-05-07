@@ -92,25 +92,60 @@ h1 {
   font-size: 20px;
 }
 
-/*.section3 {
-  margin: auto;
-  display: grid;
-  padding: 10px;
+/*movers-styling*/
+.movers {
+  background-color: whitesmoke;
+  border: 1px solid darkblue;
+  margin: 30px;
+  /*margin-top: 30px;*/
+  display: flex;
+  flex-direction: column;
+  /*justify-content: center;*/
+}
+
+.topMovers {
+  height: 800px;
+  width: 1200px;
+  display: flex;
+  flex-flow: wrap row;
+  align-content: center;
   justify-content: center;
-  grid-template-columns: repeat(auto-fill, minmax(360px, 300px));
-
+  border: 2px solid darkgreen;
+  margin-left: 200px;
+  margin-top: 100px;
 }
 
-.column {
-  flex-direction: row;
-  width: 33.3%;
-  padding: 10px;
+.topMoversCard {
+  font-family: 'Comfortaa', cursive;
+  grid-template-columns: 300px;
+  grid-template-rows: 220px 220px 100px;
+  grid-template-areas: "cardImage""cardText""cardIcons";
+  color: coral;
+  width: 330px;
+  height: 330px;
+  margin: 2px;
+  border: 1px solid purple;
+  /* background-color: darkred;  */
+  text-align: center;
+  font-size: 22px;
+  border-radius: 15px;
 }
 
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+.cardImage {
+  grid-area: cardImage;
+  background: url("./assets/images/wewe 1.png");
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-size: cover;
+}
+
+.cardText {
+  grid-area: cardText;
+  margin: 25px;
+}
+
+.cardIcons {
+  grid-area: cardIcons;
 }
 
 @media screen and (max-width:780px) {
@@ -119,44 +154,10 @@ h1 {
   }
 }
 
-
-.movers {
-  margin: 5px;
-  flex-direction: column;
-  width: 300px;
-
-}
-
-/* .movers img{ 
-  width: 100%;
-  height: auto
-}
- .section3>.movers { 
-  display: flex;
-}
-.section3 >.movers >.topMovers {
-  font-size: larger;
-  text-align: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-.section3 >.movers >.topMoversPic1 {
-  display: flex;
-  padding-top: 30px;
-  flex-direction: row;
-  width: 100px;
-  height: 150px;
-
-}*/
-
 .section4 {
   padding-top: 100px;
   display: flex;
   background-color: black;
-  
-
-
 }
 
 .section4>.footerBar {
@@ -165,12 +166,43 @@ h1 {
 
 }
 
-.footerBar{
+.footerBar {
   position: relative;
   height: 250px;
 
 
 }
-.footerHeading{
+
+.footerHeading {
   text-align: center;
+}
+
+/* Page2 styling */
+.navbar2 {
+
+  font-family: 'Poppins', 'Actor', 'Adamina';
+  height: 250px;
+  background-color: black;
+  display: flex;
+
+}
+
+.navbar2>.navItems>ul {
+  list-style: none;
+  gap: 20px;
+  color: white;
+
+
+}
+
+.navbar2 a {
+  text-decoration: none;
+  color: white;
+
+
+}
+
+.navbar2 a:hover {
+  background: purple;
+  color: black;
 }
