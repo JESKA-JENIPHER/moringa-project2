@@ -1,0 +1,71 @@
+/* Page2 styling 
+.navbar2 {
+
+  font-family: 'Poppins', 'Actor', 'Adamina';
+  height: 250px;
+  background-color: rgb(27, 26, 26);
+  display: flex;
+
+}
+
+.navbar2>.navItems>ul {
+  list-style: none;
+  gap: 20px;
+  color: white;
+
+
+}
+
+.navbar2 a {
+  text-decoration: none;
+  color: white;
+
+
+}
+
+.navbar2 a:hover {
+  background: purple;
+  color: black;
+}
+
+.text {
+  color: white;
+}
+
+.Showcase {
+  border: 1px solid darkblue;
+}
+
+.pictures {}
+footer {
+  background-color: rgb(0, 0, 7);
+  height: 300px;
+}*/
+
+footer {
+  background-color: rgb(0, 0, 7);
+  height: 300px;
+}
+
+.footer_flex_items {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+
+.footer_p {
+  font-size: 30px;
+  color: white;
+  margin-bottom: 50px;
+  padding-left: 50px;
+  padding-top: 80px;
+}
+
+.heading {
+  list-style: none;
+  font-style: bold;
+}
+
+.orange_footer_text {
+  color: orange;
+}
