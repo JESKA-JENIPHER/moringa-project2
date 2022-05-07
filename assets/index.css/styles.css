@@ -1,3 +1,7 @@
+body {
+  box-sizing: border-box;
+}
+
 .section1 {
   background-image: url("../images/moving\ 1.png");
   background-size: cover;
@@ -23,6 +27,7 @@
   justify-content: space-between;
   gap: 30px;
   padding-right: 350px;
+
 }
 
 .section1>.Change {
@@ -34,6 +39,20 @@ h1 {
 
   color: yellow;
   font-size: 50px;
+}
+
+.navbar a {
+  width: 100%;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+
+
+}
+
+.navbar a:hover {
+  background: purple;
+  color: black;
 }
 
 .button1 {
@@ -73,14 +92,85 @@ h1 {
   font-size: 20px;
 }
 
-.section3 {
-  display: flex;
-  padding: 20px;
-  flex-direction: row;
-  align-items: left;
+/*.section3 {
+  margin: auto;
+  display: grid;
+  padding: 10px;
   justify-content: center;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 300px));
+
 }
-.section3 >.topMovers{
+
+.column {
+  flex-direction: row;
+  width: 33.3%;
+  padding: 10px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width:780px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+.movers {
+  margin: 5px;
+  flex-direction: column;
+  width: 300px;
+
+}
+
+/* .movers img{ 
+  width: 100%;
+  height: auto
+}
+ .section3>.movers { 
   display: flex;
 }
-.section3
+.section3 >.movers >.topMovers {
+  font-size: larger;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.section3 >.movers >.topMoversPic1 {
+  display: flex;
+  padding-top: 30px;
+  flex-direction: row;
+  width: 100px;
+  height: 150px;
+
+}*/
+
+.section4 {
+  padding-top: 100px;
+  display: flex;
+  background-color: black;
+  
+
+
+}
+
+.section4>.footerBar {
+  display: flex;
+  padding-bottom: 100px;
+
+}
+
+.footerBar{
+  position: relative;
+  height: 250px;
+
+
+}
+.footerHeading{
+  text-align: center;
+}
