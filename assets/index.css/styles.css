@@ -92,96 +92,81 @@ h1 {
   font-size: 20px;
 }
 
-.section3 {
-  background-color: rgb(238, 236, 236);
-  margin-top: 100px;
-}
-
-.section3_h3 {
-  margin-bottom: 200px;
-  font-size: 50px;
-  margin-top: 100px;
-
-}
-
-.card_image {
-  height: 350px;
-  width: 300px;
-  object-fit: cover;
-  padding: 10px;
-
-}
-
-.cards{
-  display: inline-block;
-  width: 33%;
-  margin-top: 30px;
-  margin-bottom: 30px;
-
-}
-
-/*movers-styling
-
-.movers {
-  background-color: whitesmoke;
-  border: 1px solid darkblue;
-  margin: 30px;
-  /*margin-top: 30px;
+.topmovers {
   display: flex;
   flex-direction: column;
-  /*justify-content: center;
-}
-
-.topMovers {
-  height: 800px;
-  width: 1200px;
-  display: flex;
-  flex-flow: wrap row;
-  align-content: center;
+  height: 400px;
   justify-content: center;
-  border: 2px solid darkgreen;
-  margin-left: 200px;
-  margin-top: 100px;
+  background: rgba(204, 204, 204, 0.21);
+  padding-left: 10%;
 }
 
-.topMoversCard {
-  font-family: 'Comfortaa', cursive;
-  grid-template-columns: 300px;
-  grid-template-rows: 220px 220px 100px;
-  grid-template-areas: "cardImage""cardText""cardIcons";
-  color: coral;
-  width: 330px;
-  height: 330px;
-  margin: 2px;
-  border: 1px solid purple;
-  /* background-color: darkred;  
-  text-align: center;
-  font-size: 22px;
-  border-radius: 15px;
+hr.line2 {
+  width: 9%;
+  height: 5px;
+  background-image: linear-gradient(to right, orange, yellowgreen, green);
 }
 
-.cardImage {
-  grid-area: cardImage;
-  background: url("./assets/images/wewe 1.png");
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  background-size: cover;
+.topmovers h2 {
+  font-weight: lighter;
+  font-size: 40px;
+  padding-top: 20px;
 }
 
-.cardText {
-  grid-area: cardText;
-  margin: 25px;
+.box2 img {
+  width: 25px;
 }
 
-.cardIcons {
-  grid-area: cardIcons;
-}*/
-
-@media screen and (max-width:780px) {
-  .column {
-    width: 100%;
-  }
+.box3 img {
+  width: 25px;
 }
+
+.truck img {
+  width: 340px;
+}
+
+
+.icons {
+  display: flex;
+  gap: 5px;
+}
+
+section.services {
+  display: flex;
+  justify-content: center;
+  background: #cccccc36;
+  height: 600px;
+  gap: 120px;
+}
+
+
+.box1 {
+  padding: 20px 20px 20px 42px;
+}
+
+.box2 {
+  padding: 20px 20px 20px 50px;
+}
+
+.box3 {
+  padding: 20px 20px 20px 50px;
+}
+
+.A-plusmovers {
+  background: #fff;
+  height: 415px;
+  border-bottom-left-radius: 43px;
+  border-bottom-right-radius: 43px;
+  box-shadow: 1px 3px 4px 0px #cccc;
+}
+
+h3 {
+  padding-left: 20px;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+
 
 footer {
   background-color: rgb(0, 0, 7);

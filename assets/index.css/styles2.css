@@ -1,47 +1,78 @@
-/* Page2 styling 
-.navbar2 {
-
+* {
+  margin: 0;
+  padding: 0;
   font-family: 'Poppins', 'Actor', 'Adamina';
-  height: 250px;
+}
+
+.pg2section1 {
   background-color: rgb(27, 26, 26);
+  height: 250px;
   display: flex;
+}
+
+.navbar2 {
+  display: flex;
+  font-family: 'Poppins', 'Actor', 'Adamina';
+  padding: 30px;
+  float: right;
 
 }
 
-.navbar2>.navItems>ul {
+.navbar2>ul {
   list-style: none;
-  gap: 20px;
   color: white;
-
-
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  text-decoration: none;
+  padding-right: 350px;
 }
 
-.navbar2 a {
+.navbar a {
+  width: 100%;
+  display: inline-block;
   text-decoration: none;
   color: white;
+  text-decoration: none;
 
 
 }
 
-.navbar2 a:hover {
+.navbar a:hover {
   background: purple;
   color: black;
 }
 
+ 
 .text {
+  color: white;
+  display:flex;
+
+}
+
+.text1{
   color: white;
 }
 
+.text2{
+  color: white;
+}
+.desc1{
+  text-align: left;
+}
+/*
 .Showcase {
   border: 1px solid darkblue;
 }
 
 .pictures {}
+
 footer {
   background-color: rgb(0, 0, 7);
   height: 300px;
-}*/
+}
 
+*/
 footer {
   background-color: rgb(0, 0, 7);
   height: 300px;
