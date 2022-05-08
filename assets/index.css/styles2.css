@@ -70,7 +70,7 @@ header {
 }
 
 .pg2section5 {
-  border: 1px solid blue;
+  border: 1px solid brown;
   padding: 20px;
   display: flex;
   justify-content: space-between;
@@ -153,12 +153,13 @@ hr.line2 {
   gap: 5px;
 }
 
-section.similarListings {
+.similarListings {
   display: flex;
   justify-content: center;
   background: #cccccc36;
-  height: 300px;
+  height: 350px;
   gap: 10px;
+  border: 2px solid red;
 }
 
 
