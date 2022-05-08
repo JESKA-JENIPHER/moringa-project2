@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Adamina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Adamina&family=Poppins:wght@100&display=swap');
+
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', 'Actor', 'Adamina';
+  font-family: 'Actor';
 }
 
 header {
@@ -40,9 +43,120 @@ header {
   border-top: 1px solid gray;
   padding-top: 20px;
   padding-bottom: 20px;
+
 }
 
-.pg2section4 {
+/* pg2section2 */
+
+.content-wrapper {
+  /*background-color: red;*/
+  /*height: 500px;*/
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+}
+
+.kitchen {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.kitchen-island img {
+  /*max-height: 500px;*/
+  margin-left: 200px;
+  height: 550px;
+}
+
+.profile {
+  margin-left: 50px;
+  border-radius: 20px;
+  /*border: 1px solid black;*/
+  background-color: white;
+  height: 550px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-img {
+  display: flex;
+  margin: 15px;
+  padding-top: 10px;
+  border-radius: 20px;
+  background-color: whitesmoke;
+}
+
+.kaylee {
+  padding-top: 7px;
+}
+
+.profile-img img {
+  width: 70px;
+}
+
+input[type=text],
+select,
+textarea {
+  width: 95%;
+  height: 60px;
+  padding: 20px 20px;
+  margin: 10px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.learn-more {
+  padding: 21px 155px 20px 73px;
+  border-top-right-radius: 12px;
+  color: rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
+  margin: 20px;
+}
+
+.slid-show {
+  margin-left: 200px;
+}
+
+.slid-show img {
+  width: 130px;
+}
+
+/* pg2section3 */
+
+.details {
+  display: flex;
+  /*background: #ffffff;*/
+  margin-top: 50px;
+  margin-left: 150px;
+}
+
+.main-box {
+  background: #fff;
+  margin-left: 50px;
+  padding: 30px 20px 0px 0px;
+  border-radius: 20px;
+
+}
+
+h3 {
+  padding-left: 30px;
+}
+
+.icons2 {
+  display: flex;
+  gap: 60px;
+}
+
+.box1 {
+  align-content: center;
+  padding: 10px;
+}
+
+/* .pg2section4 {  
   border: 1px solid blue;
   padding: 10px;
   margin: 10px;
@@ -112,7 +226,7 @@ header {
 
 .listings {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   height: 200px;
   justify-content: center;
   background: rgba(204, 204, 204, 0.21);
