@@ -4,72 +4,62 @@
   font-family: 'Poppins', 'Actor', 'Adamina';
 }
 
-.pg2section1 {
-  background-color: rgb(27, 26, 26);
-  height: 250px;
-  display: flex;
+header {
+  background-color: black;
+  height: 200px;
 }
 
-.navbar2 {
+.navbar {
   display: flex;
-  font-family: 'Poppins', 'Actor', 'Adamina';
-  padding: 30px;
-  float: right;
+  justify-content: space-evenly;
+  height: 100px;
+  align-items: center;
 
 }
 
-.navbar2>ul {
-  list-style: none;
+.navbar>ul>li {
   color: white;
+  display: inline-block;
+  padding: 20px;
+  font-size: 15px;
+}
+
+.header_btn {
+  background-color: orange;
+  height: 45px;
+  width: 200px;
+  border: none;
+}
+
+.header_lower_section {
   display: flex;
   justify-content: space-between;
-  gap: 30px;
-  text-decoration: none;
-  padding-right: 350px;
-}
-
-.navbar a {
-  width: 100%;
-  display: inline-block;
-  text-decoration: none;
   color: white;
-  text-decoration: none;
-
-
-}
-
-.navbar a:hover {
-  background: purple;
-  color: black;
-}
-
-
-.text {
-  color: white;
-  display: flex;
-
-}
-
-.text1 {
-  color: white;
-}
-
-.text2 {
-  color: white;
+  padding-right: 100px;
+  padding-left: 100px;
+  border-top: 1px solid gray;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .pg2section4 {
   border: 1px solid blue;
-  padding: 20px;
+  padding: 10px;
+  margin: 10px;
 }
 
-.section4Dets{
+.section4Dets {
   border: 1px solid yellow;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .desc1 {
   border: 1px solid purple;
-
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .paragraph {
@@ -93,24 +83,26 @@
   display: inline-block;
 }
 
-.feature{
+.feature {
   border: 1px solid purple;
   padding: 10px;
 
 }
 
-.list1{
+.list1 {
   border: 1px solid red;
   flex-direction: row;
   padding-top: 10px;
   margin: 10px;
 }
+
 .list2 {
   border: 1px solid red;
   flex-direction: row;
   padding-top: 10px;
   margin: 10px;
 }
+
 .list3 {
   border: 1px solid red;
   flex-direction: row;
@@ -139,6 +131,10 @@ hr.line2 {
   padding-top: 20px;
 }
 
+.box1 img {
+  width: 25px;
+}
+
 .box2 img {
   width: 25px;
 }
@@ -157,11 +153,11 @@ hr.line2 {
   gap: 5px;
 }
 
-.similarlistings {
+section.similarListings {
   display: flex;
   justify-content: center;
   background: #cccccc36;
-  height: 100px;
+  height: 300px;
   gap: 10px;
 }
 
