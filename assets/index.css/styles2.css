@@ -156,6 +156,37 @@ h3 {
   padding: 10px;
 }
 
+
+/* pg2section4 */
+
+section.explanation {
+  display: flex;
+  height: 500px;
+  align-items: center;
+  background: rgba(204, 204, 204, 0.21);
+}
+
+.theory {
+  margin-left: 60px;
+  background: #fff;
+  padding: 30px 30px 20px 30px;
+  border-radius: 20px;
+  box-shadow: rgb(204 204 204 / 80%) 4px 4px 8px 4px;
+}
+
+.theory h2 {
+  font-weight: lighter;
+}
+
+.filler {
+  padding-top: 70px;
+}
+
+.featheader {
+  position: absolute;
+  padding-top: 100px;
+  margin-left: 80px;
+}
 /* .pg2section4 {  
   border: 1px solid blue;
   padding: 10px;
