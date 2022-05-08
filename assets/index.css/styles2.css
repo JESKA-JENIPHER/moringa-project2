@@ -159,14 +159,14 @@ h3 {
 
 /* pg2section4 */
 
-section.explanation {
+section.brief {
   display: flex;
   height: 500px;
   align-items: center;
   background: rgba(204, 204, 204, 0.21);
 }
 
-.theory {
+.desc{
   margin-left: 60px;
   background: #fff;
   padding: 30px 30px 20px 30px;
@@ -174,15 +174,52 @@ section.explanation {
   box-shadow: rgb(204 204 204 / 80%) 4px 4px 8px 4px;
 }
 
-.theory h2 {
+.desc h2 {
   font-weight: lighter;
 }
 
-.filler {
+.paragraph {
   padding-top: 70px;
 }
 
-.featheader {
+/* pg2section5 */
+
+.section5 {
+  position: absolute;
+  padding-top: 100px;
+  margin-left: 80px;
+}
+
+section.features {
+  display: flex;
+  align-items: center;
+  height: 400px;
+  background: rgba(204, 204, 204, 0.21);
+}
+
+.lists {
+  background: #fff;
+  padding: 105px 151px 20px 30px;
+  border-radius: 20px;
+  margin-left: 60px;
+  box-shadow: rgb(204 204 204 / 80%) 4px 4px 8px 4px;
+}
+
+.condition {
+  display: flex;
+  line-height: 1.8;
+  gap: 120px;
+}
+
+.condition img {
+  padding-right: 10px;
+}
+
+/* pg2section6 */
+
+
+
+/* .featheader { 
   position: absolute;
   padding-top: 100px;
   margin-left: 80px;
