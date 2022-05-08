@@ -43,37 +43,157 @@
   color: black;
 }
 
- 
+
 .text {
   color: white;
-  display:flex;
+  display: flex;
 
 }
 
-.text1{
+.text1 {
   color: white;
 }
 
-.text2{
+.text2 {
   color: white;
 }
-.desc1{
-  text-align: left;
-}
-/*
-.Showcase {
-  border: 1px solid darkblue;
+
+.pg2section4 {
+  border: 1px solid blue;
+  padding: 20px;
 }
 
-.pictures {}
+.section4Dets{
+  border: 1px solid yellow;
+}
 
-footer {
-  background-color: rgb(0, 0, 7);
+.desc1 {
+  border: 1px solid purple;
+
+}
+
+.paragraph {
+  border: 1px solid green;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+.pg2section5 {
+  border: 1px solid blue;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section5Dets {
+  border: 1px solid yellow;
+  padding: 10px;
+  justify-content: space-between;
+  display: inline-block;
+}
+
+.feature{
+  border: 1px solid purple;
+  padding: 10px;
+
+}
+
+.list1{
+  border: 1px solid red;
+  flex-direction: row;
+  padding-top: 10px;
+  margin: 10px;
+}
+.list2 {
+  border: 1px solid red;
+  flex-direction: row;
+  padding-top: 10px;
+  margin: 10px;
+}
+.list3 {
+  border: 1px solid red;
+  flex-direction: row;
+  padding-top: 10px;
+  margin: 10px;
+}
+
+.listings {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  justify-content: center;
+  background: rgba(204, 204, 204, 0.21);
+  padding-left: 10%;
+}
+
+hr.line2 {
+  width: 9%;
+  height: 5px;
+  background-image: linear-gradient(to right, orange, yellowgreen, green);
+}
+
+.listings h2 {
+  font-weight: lighter;
+  font-size: 40px;
+  padding-top: 20px;
+}
+
+.box2 img {
+  width: 25px;
+}
+
+.box3 img {
+  width: 25px;
+}
+
+.Malto img {
+  width: 300px;
+}
+
+
+.icons {
+  display: flex;
+  gap: 5px;
+}
+
+.similarlistings {
+  display: flex;
+  justify-content: center;
+  background: #cccccc36;
+  height: 100px;
+  gap: 10px;
+}
+
+
+.box1 {
+  padding: 20px 20px 20px 42px;
+}
+
+.box2 {
+  padding: 20px 20px 20px 50px;
+}
+
+.box3 {
+  padding: 20px 20px 20px 50px;
+}
+
+.images {
+  background: #fff;
   height: 300px;
+  border-bottom-left-radius: 43px;
+  border-bottom-right-radius: 43px;
+  box-shadow: 1px 3px 4px 0px #cccc;
 }
 
-*/
-footer {
+h3 {
+  padding-left: 20px;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+
+/* footer { 
   background-color: rgb(0, 0, 7);
   height: 300px;
 }
