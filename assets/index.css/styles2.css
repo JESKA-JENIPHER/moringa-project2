@@ -217,7 +217,80 @@ section.features {
 
 /* pg2section6 */
 
+.listings {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  justify-content: center;
+  background: rgba(204, 204, 204, 0.21);
+  padding-left: 10%;
+}
 
+hr.line2 {
+  width: 9%;
+  height: 5px;
+  background-image: linear-gradient(to right, orange, yellowgreen, green);
+}
+
+.listings h2 {
+  font-weight: lighter;
+  font-size: 40px;
+  padding-top: 20px;
+}
+
+.box2 img {
+  width: 25px;
+}
+
+.box3 img {
+  width: 25px;
+}
+
+.malto img {
+  width: 340px;
+}
+
+
+.icons {
+  display: flex;
+  gap: 5px;
+}
+
+section.housing {
+  display: flex;
+  justify-content: center;
+  background: #cccccc36;
+  height: 600px;
+  gap: 120px;
+
+}
+
+
+.box1 {
+  padding: 20px 20px 20px 42px;
+}
+
+.box2 {
+  padding: 20px 20px 20px 50px;
+}
+
+.box3 {
+  padding: 20px 20px 20px 50px;
+}
+
+.A-plusmovers {
+  background: #fff;
+  height: 415px;
+  border-bottom-left-radius: 43px;
+  border-bottom-right-radius: 43px;
+  box-shadow: 1px 3px 4px 0px #cccc;
+}
+
+.generalbox2 h3 {
+  padding-left: 20px;
+  font-size: 20px;
+  font-weight: lighter;
+}
 
 /* .featheader { 
   position: absolute;
