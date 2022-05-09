@@ -35,6 +35,7 @@ As a user of the web app,you will be able to :
 ### [Live Link](#liv-link)
 ***
 - Click this link to view the live application <br>
+https://jeska-jenipher.github.io/moringa-project2/
 
 ### [Technology Used](#technology-used)
 ***
